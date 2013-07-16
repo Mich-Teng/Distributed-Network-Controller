@@ -1,5 +1,5 @@
-FDHT_LIBS=-L../FastDHT/client -lfastcommon -lfdhtclient
-FDHT_INCLUDE_PATH=../FastDHT/common
+FDHT_LIBS=-LFastDHT/client -lfastcommon -lfdhtclient
+FDHT_INCLUDE_PATH=FastDHT/common
 CFLAGS=-O2 -Wall
 
 all:  InterDomainTopo mytest 
